@@ -1,19 +1,12 @@
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
-
-[packages]
-django = "*"
-djangorestframework = "*"
-markdown = "*"
-django-filter = "*"
-pillow = "*"
-djangorestframework-simplejwt = "*"
-stripe = "*"
-django-cors-headers = "*"
-
-[dev-packages]
-
-[requires]
-python_version = "3.12"
+django
+djangorestframework
+markdown
+django-filter
+pillow
+djangorestframework-simplejwt
+stripe
+django-cors-headers
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary
