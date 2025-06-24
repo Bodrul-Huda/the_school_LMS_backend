@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+*.sqlite3
+.env
+.env.*
+
+# Django migrations (optional, if you regenerate them often)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Pipenv or virtualenv
+Pipfile.lock
+venv/
+.envrc
+
+# Jupyter (if used)
+*.ipynb_checkpoints
+
+# Coverage/testing
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest cache
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery beat schedule (if used)
+celerybeat-schedule
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# Local settings (optional)
+local_settings.py
