@@ -17,7 +17,7 @@ staticfiles/
 .env.*
 
 # Django migrations (optional, if you regenerate them often)
-**/migrations/*.py
+**/migrations/*.pyc
 !**/migrations/__init__.py
 
 # VSCode
