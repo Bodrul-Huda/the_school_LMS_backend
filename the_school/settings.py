@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-lhal^x3qchz^3p&!g8^^yzf@i_$qfv(j0*x!_#mr!(&=bcvuqg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -62,7 +62,8 @@ MIDDLEWARE = [
 AUTH_USER_MODEL = 'users.User'
 ROOT_URLCONF = 'the_school.urls'
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # or your frontend port
+    "http://localhost:5173", 
+     "https://the-school-lms-backend.onrender.com" # or your frontend port
 ]
 
 
